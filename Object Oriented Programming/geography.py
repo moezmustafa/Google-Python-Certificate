@@ -33,13 +33,13 @@ def max_elevation_city(min_population):
 	# Initialize the variable that will hold 
 # the information of the city with 
 # the highest elevation 
-	return_city = City()
+#	return_city = City()
 
 	# Evaluate the 1st instance to meet the requirements:
 	# does city #1 have at least min_population and
 	# is its elevation the highest evaluated so far?
-	if ___
-		return_city = ___
+	if city.pipulation >= min_population and city.elevation > return_city.elevation:
+		return_city = city
 	# Evaluate the 2nd instance to meet the requirements:
 	# does city #2 have at least min_population and
 	# is its elevation the highest evaluated so far?
